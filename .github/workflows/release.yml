@@ -10,8 +10,8 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
 
-      - name: Build Projet Assets
-        run: zip -0r gfn-enabler.zip ./ -x '.git/*' '.github/*' '.editorconfig'
+      - name: Build Project Assets
+        run: zip -0r gfn-enabler.zip ./ -i 'icons/*' 'background.js' 'manifest.json'
 
       - name: Create Release
         id: create_release
