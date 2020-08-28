@@ -2,9 +2,11 @@
 
 ## Description
 
-This extension allows you to use the GeForce NOW web version using any operating system.
+This extension allows you to use GeForce NOW in your browser using any operating system.
 
 ## Installation
+
+### Google Chrome
 
 **Note: The extension is currently not present in the Chrome Web Store because I am poor and don't want to pay the developer fee, but if enough people show interest in the extension I will add it to the store.**
 
@@ -14,6 +16,10 @@ This extension allows you to use the GeForce NOW web version using any operating
 - Enable developer mode.
 - Click on `Load Unpacked` and select the folder you just extracted.
 - You can now open https://play.geforcenow.com and start playing!
+
+### Mozilla Firefox
+
+`TODO`
 
 ## How it works
 

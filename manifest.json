@@ -2,7 +2,7 @@
   "name": "GeForce NOW Enabler",
   "version": "0.1.2",
   "manifest_version": 2,
-  "description": "Use GeForce NOW inside the chrome browser on any operating system.",
+  "description": "Use GeForce NOW inside your browser on any operating system.",
   "homepage_url": "https://github.com/murar8/gfn-enabler",
   "author": "Lorenzo Murarotto <lnzmrr@gmail.com>",
   "minimum_chrome_version": "35",
@@ -13,9 +13,7 @@
     "128": "icons/icon-128.png"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": true
   },
   "permissions": [
