@@ -3,9 +3,14 @@
 ## Description
 This extension allows you to use the GeForce NOW web version using any operating system.
 
-## Usage
-- Install the extension from the Chrome Web Store.
-- Open https://play.geforcenow.com.
+## Installation
+**Note: The extension is currently not present in the Chrome Web Store because I am poor and don't want to pay the developer fee, but if enough people show interest in the extension I will add it to the store.**
+- Download the latest release.
+- Unzip the downloaded file in a folder to your liking.
+- Navigate to `chrome://extensions`.
+- Enable developer mode.
+- Click on `Load Unpacked` and select the folder you just extracted.
+- You can now open https://play.geforcenow.com and start playing!
 
 ## How it works
 The extension simply spoofs the user agent string in the request headers, making GFN think we are using ChromeOS.
