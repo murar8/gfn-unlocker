@@ -17,10 +17,6 @@ This extension allows you to use GeForce NOW in your browser using any operating
 - Click on `Load Unpacked` and select the folder you just extracted.
 - You can now open https://play.geforcenow.com and start playing!
 
-### Mozilla Firefox
-
-`TODO`
-
 ## How it works
 
 The extension simply spoofs the user agent string in the request headers, making GFN think we are using ChromeOS.
