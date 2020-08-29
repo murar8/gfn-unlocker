@@ -7,8 +7,15 @@ jobs:
     name: Run Linters
     runs-on: ubuntu-latest
     steps:
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with: { node-version: 12 }
+
       - name: Checkout Code
         uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: yarn install
 
       - name: Prettier
         run: yarn lint:prettier
