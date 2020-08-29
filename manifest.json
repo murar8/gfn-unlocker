@@ -13,12 +13,8 @@
     "128": "icons/icon-128.png"
   },
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["src/background.js"],
     "persistent": true
   },
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "https://play.geforcenow.com/*"
-  ]
+  "permissions": ["webRequest", "webRequestBlocking", "https://play.geforcenow.com/*"]
 }

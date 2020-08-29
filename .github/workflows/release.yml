@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Project Assets
-        run: zip -0r gfn-enabler.zip ./ -i 'icons/*' 'background.js' 'manifest.json'
+        run: yarn build
 
       - name: Create Release
         id: create_release
