@@ -1,6 +1,6 @@
 {
   "name": "gfn-enabler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use GeForce NOW inside your browser on any operating system.",
   "repository": "https://github.com/murar8/gfn-enabler",
   "author": "Lorenzo Murarotto <lnzmrr@gmail.com>",
