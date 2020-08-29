@@ -1,0 +1,41 @@
+{
+  "name": "gfn-enabler",
+  "version": "0.2.0",
+  "description": "Use GeForce NOW inside your browser on any operating system.",
+  "repository": "https://github.com/murar8/gfn-enabler",
+  "author": "Lorenzo Murarotto <lnzmrr@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint:eslint": "eslint --ext .js .",
+    "lint:prettier": "prettier --check --ignore-unknown ."
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "webextensions": true
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.js": "eslint --fix",
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.1.1"
+  }
+}
