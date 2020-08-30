@@ -1,4 +1,4 @@
-# GeForce NOW Enabler
+# GeForce NOW Unlocker
 
 ## Description
 
@@ -10,7 +10,7 @@ This extension allows you to use GeForce NOW in your browser using any operating
 
 **Note: The extension is currently not present in the Chrome Web Store because I am poor and don't want to pay the developer fee, but if enough people show interest in the extension I will add it to the store.**
 
-- Download the [latest release](https://github.com/murar8/gfn-enabler/releases/latest/download/gfn-enabler.zip).
+- Download the [latest release](https://github.com/murar8/gfn-unlocker/releases/latest/download/gfn-unlocker.zip).
 - Unzip the downloaded file in a folder to your liking.
 - Navigate to `chrome://extensions`.
 - Enable developer mode.
