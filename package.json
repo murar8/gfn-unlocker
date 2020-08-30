@@ -8,7 +8,7 @@
   "scripts": {
     "lint:eslint": "eslint --ext .js .",
     "lint:prettier": "prettier --check --ignore-unknown .",
-    "build": "mkdir -p build && zip -0r build/gfn-unlocker.zip ./ -i 'icons/*' 'background.js' 'manifest.json'"
+    "build": "mkdir -p build && zip -0r build/gfn-unlocker.zip ./ -i 'icons/*' 'gfn-unlocker.js' 'manifest.json'"
   },
   "eslintConfig": {
     "root": true,

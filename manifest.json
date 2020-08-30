@@ -12,7 +12,7 @@
     "128": "icons/icon-128.png"
   },
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["gfn-unlocker.js"],
     "persistent": true
   },
   "permissions": ["webRequest", "webRequestBlocking", "https://play.geforcenow.com/*"]
