@@ -3,9 +3,9 @@
 
   "name": "GeForce NOW Unlocker",
 
-  "version": "0.3.0",
+  "version": "0.3.1",
 
-  "description": "Use GeForce NOW inside your browser on any operating system.",
+  "description": "Allow the usage of the GeForce NOW web app on unsupported operating systems.",
   "author": "Lorenzo Murarotto <lnzmrr@gmail.com>",
   "homepage_url": "https://github.com/murar8/gfn-unlocker",
 
