@@ -30,6 +30,7 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@types/chrome": "^0.0.122",
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
