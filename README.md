@@ -6,9 +6,30 @@ This extension allows you to use GeForce NOW in your browser using any operating
 
 ## Installation
 
-### Google Chrome
+### Google Chrome (recommended)
 
-Install the extension frome the [Chrome Web Store](https://chrome.google.com/webstore/detail/chgiddljhokfbppnhfphdabejocpopgk).
+#### Installation Procedure
+
+Install the extension from the [Chrome Web Store](https://chrome.google.com/webstore/detail/chgiddljhokfbppnhfphdabejocpopgk).
+
+### Mozilla Firefox
+
+#### Installation Procedure
+
+Install the extension from [Firefox Extensions](https://addons.mozilla.org/firefox/addon/geforce-now-unlocker).
+
+#### Troubleshooting
+
+Firefox does not play very well with GeForce NOW so it is possible you will run into some issues.
+If you are having an issue and find a workaround please let me know and I will add it to the readme.
+
+- Unable to start games.
+  - Displayed Error: Check your network connection and try again. ERROR CODE: 0x00000157
+  - Solution: Open the Site information panel (padlock icon at the start of the address bar) then change the Autoplay permissions to "Allow Audio and Video"
+
+## Usage
+
+Simply navigate to https://play.geforcenow.com and start playing!
 
 ## How it works
 
