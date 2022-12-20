@@ -1,5 +1,7 @@
 # GeForce NOW Unlocker
 
+## Note: This package is not mantained anymore.
+
 ## Description
 
 This extension allows you to use GeForce NOW in your browser using any operating system.
